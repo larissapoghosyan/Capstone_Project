@@ -1,6 +1,11 @@
 # Optimality of state-of-the-art language representation models in NLP applications
 
 The work is done during Larisa Poghosyan's capstone project for the degree of BS in Data Science in the Zaven and Sona Akian College of Science and Engineering.
+Supervised by Vahe Hakobyan.
+
+## Instructions
+
+TODO Notebooks with quick descriptions and instructions
 
 ## Abstract
 
