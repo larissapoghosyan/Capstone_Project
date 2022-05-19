@@ -5,17 +5,21 @@ Supervised by Vahe Hakobyan.
 
 ## Instructions
 
-By following the instructions below you can easily replicate the results presented in the work. See the corresponding sections for details.
+We provide the precomputed embeddings for each model on each dataset discussed in the project.
+You can find the assets at: https://github.com/larissapoghosyan/Capstone_Project/releases/tag/embeddings
+
+Otherwise, you can easily replicate the results presented in the work by following the instructions below.
+See the corresponding sections for details.
 
 ### Notebooks
 
-‘Transformers_BERT_embeddings_both_datasets’ notebook provides a pipeline to extract BERT embeddings and save them as h5py files.
+`Transformers_BERT_embeddings_both_datasets` notebook provides a pipeline to extract `BERT` embeddings and save them as h5py files.
 
-The notebooks ‘W2V_FastText_embeddings_both_datasets’ and ELMo_embeddings_both_datasets’  provide embeddings of Word2Vec, FastText and ELMo respectively.
+The notebooks `W2V_FastText_embeddings_both_datasets` and `ELMo_embeddings_both_datasets` provide embeddings of `Word2Vec`, `FastText` and `ELMo` respectively.
 
-The notebook ‘baseline_classifiers_IMDb_Dataset’ contains code to calculate point estimates for all the modls in list, for IMDb Movie Reviews Sentiment Classification task.
+The notebook `baseline_classifiers_IMDb_Dataset` contains the code to calculate point estimates for all the models in list on _IMDb Movie Reviews Sentiment Classification_ task.
 
-‘Pyro_for_pp_IMDb’ contains the probabilistic programming pipeline using pyro. This notebook also provides the accuracy distributions and HDI plots, for IMDb dataset.
+`Pyro_for_pp_IMDb` contains the probabilistic programming pipeline using `pyro`. This notebook also provides the accuracy distributions and HDI plots, for IMDb dataset.
 
 ### Data
 
@@ -30,6 +34,10 @@ TODO ELMo repo and cmd
 TODO TinyBERT, BERT, RoBERTa repo and cmd
 
 ### Requirements
+
+All of the experiments are performed on `Colab` and `Colab Pro+` on a single (K40 / V100 / P100) GPU.
+Using GPUs for the project, however, is not required but is expected to take much longer.
+For example, experiments on `ELMO` takes approximately `1 hour` on `K40` GPU while on CPU it takes up to `13 hours`.
 
 TODO system requirements and python requirements
 
