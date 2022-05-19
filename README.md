@@ -5,7 +5,13 @@ Supervised by Vahe Hakobyan.
 
 ## Instructions
 
-TODO Notebooks with quick descriptions and instructions
+‘Transformers_BERT_embeddings_both_datasets’ notebook provides a pipeline to extract BERT embeddings and save them as h5py files.
+
+The notebooks ‘W2V_FastText_embeddings_both_datasets’ and ELMo_embeddings_both_datasets’  provide embeddings of Word2Vec, FastText and ELMo respectively.
+
+The notebook ‘baseline_classifiers_IMDb_Dataset’ contains code to calculate point estimates for all the modls in list, for IMDb Movie Reviews Sentiment Classification task.
+
+‘Pyro_for_pp_IMDb’ contains the probabilistic programming pipeline using pyro. This notebook also provides the accuracy distributions and HDI plots, for IMDb dataset.
 
 ## Abstract
 
