@@ -17,6 +17,4 @@ With this experiment we hope to develop an understanding of the phenomenon of ha
 <img width="551" alt="kde" src="https://user-images.githubusercontent.com/43134338/169176706-1462de85-2fa8-4fa7-b785-8cd7fe290384.png">
 <sup>Kernel Density Estimation plots of Accuracy Distributions for each Model on IMDb Movie Sentiment Classification task</sup>
 
-Other text
-
 
