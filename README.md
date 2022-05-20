@@ -23,18 +23,23 @@ The notebook `baseline_classifiers_IMDb_Dataset` contains the code to calculate 
 
 ### Data
 
-TODO IMDb data retrieval - https://github.com/larissapoghosyan/Capstone_Project/releases/download/embeddings/IMDb_Reviews.csv
+TODO IMDb data retrieval:<br />
+`https://github.com/larissapoghosyan/Capstone_Project/releases/download/embeddings/IMDb_Reviews.csv`
 
-TODO Word2Vec repo and cmd - api.load('word2vec-google-news-300')
+TODO Word2Vec repo and cmd:<br />
+`api.load('word2vec-google-news-300')`
 
-TODO FastText repo and cmd -- !wget https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M.vec.zip
-                              !unzip wiki-news-300d-1M.vec.zip
+TODO FastText repo and cmd:<br />
+`!wget https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M.vec.zip`<br />
+`!unzip wiki-news-300d-1M.vec.zip`
 
-TODO ELMo repo and cmd -- !pip install allennlp==0.9.0
-                          !pip install flair
-                          !pip install sacremoses
+TODO ELMo repo and cmd:<br />
+`!pip install allennlp==0.9.0`<br />
+`!pip install flair`<br />
+`!pip install sacremoses`<br />
 
-TODO TinyBERT, BERT, RoBERTa repo and cmd -- !pip install transformers (HuggingFace pre-trained models)
+TODO TinyBERT, BERT, RoBERTa repo and cmd:<br />
+`!pip install transformers (HuggingFace pre-trained models)`
 
 ### Requirements
 
