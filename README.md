@@ -41,6 +41,9 @@ To extract ELMo embeddings, please run:<br />
 To use the pre-trained models of TinyBERT, BERT, RoBERTa, Sentence-BERT and DistilBERT, run the following code to install Hugging Face transformers:<br />
 `pip install transformers`
 
+To run the Pyro pipeline, please use the following code: <br />
+`pip3 install pyro-ppl`
+
 ### Requirements
 
 All of the experiments are performed on `Colab` and `Colab Pro+` on a single (K40 / V100 / P100) GPU.
