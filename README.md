@@ -23,23 +23,23 @@ The notebook `baseline_classifiers_IMDb_Dataset` contains the code to calculate 
 
 ### Data
 
-TODO IMDb data retrieval:<br />
+In order to retrieve IMDb data, please see the link:<br />
 `https://github.com/larissapoghosyan/Capstone_Project/releases/download/embeddings/IMDb_Reviews.csv`
 
-TODO Word2Vec repo and cmd:<br />
+To download Word2Vec pretrained embeddings, please run:<br />
 `api.load('word2vec-google-news-300')`
 
-TODO FastText repo and cmd:<br />
-`!wget https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M.vec.zip`<br />
-`!unzip wiki-news-300d-1M.vec.zip`
+To download FastText embeddings, please run:<br />
+`wget https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M.vec.zip`<br />
+`unzip wiki-news-300d-1M.vec.zip`
 
-TODO ELMo repo and cmd:<br />
-`!pip install allennlp==0.9.0`<br />
-`!pip install flair`<br />
-`!pip install sacremoses`<br />
+To extract ELMo embeddings, please run:<br />
+`pip install allennlp==0.9.0`<br />
+`pip install flair`<br />
+`pip install sacremoses`<br />
 
-TODO TinyBERT, BERT, RoBERTa repo and cmd:<br />
-`!pip install transformers (HuggingFace pre-trained models)`
+To use the pre-trained models of TinyBERT, BERT, RoBERTa, Sentence-BERT and DistilBERT, run the following code to install Hugging Face transformers:<br />
+`pip install transformers`
 
 ### Requirements
 
