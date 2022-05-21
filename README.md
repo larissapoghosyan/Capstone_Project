@@ -50,11 +50,6 @@ All of the experiments are performed on `Colab` and `Colab Pro+` on a single (K4
 Using GPUs for the project, however, is not required but is expected to take much longer.
 For example, experiments on `ELMO` takes approximately `1 hour` on `K40` GPU while on CPU it takes up to `13 hours`.
 
-TODO system requirements and python requirements
-
-### Hardware
-
-TODO Hardware used for training. About Colab and Colab Pro+. GPU requirements.
 
 ## Abstract
 
