@@ -48,7 +48,7 @@ To run the Pyro pipeline, please use the following code: <br />
 
 All of the experiments are performed on `Colab` and `Colab Pro+` on a single (K40 / V100 / P100) GPU.
 Using GPUs for the project, however, is not required but is expected to take much longer.
-For example, experiments on `ELMO` takes approximately `1 hour` on `K40` GPU while on CPU it takes up to `13 hours`.
+For example, experiments on `ELMO` takes approximately `1 hour` on `K40` GPU while on CPU it takes up to `10 hours`.
 
 
 ## Abstract
